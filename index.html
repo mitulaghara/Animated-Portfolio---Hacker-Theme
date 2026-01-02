@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Mitul Aghara - Full Stack Developer & Creative Coder">
+    <title>Mitul Aghara | System Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&family=Orbitron:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="scanlines"></div>
+    <canvas id="matrix-canvas"></canvas>
+
+    <div class="overlay">
+        <header>
+            <nav class="glitch-nav">
+                <div class="logo" data-text="MJ_SYSTEM">MJ_SYSTEM</div>
+                <ul class="nav-links">
+                    <li><a href="#home" data-text="[HOME]">[HOME]</a></li>
+                    <li><a href="#about" data-text="[ABOUT]">[ABOUT]</a></li>
+                    <li><a href="#skills" data-text="[SKILLS]">[SKILLS]</a></li>
+                    <li><a href="#projects" data-text="[PROJECTS]">[PROJECTS]</a></li>
+                    <li><a href="#contact" data-text="[CONTACT]">[CONTACT]</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="hero-section">
+                <div class="hero-content">
+                    <p class="terminal-alert">> SYSTEM DETECTED: VISITOR</p>
+                    <h1 class="glitch" data-text="MITUL AGHARA">MITUL AGHARA</h1>
+                    <h2 class="typing-text"><span id="typewriter"></span><span class="cursor">_</span></h2>
+                    <p class="bio-text">> Full Stack Developer | Creative Coder | Tech Enthusiast</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="cyber-btn"><span>INITIALIZE_PROJECTS</span></a>
+                        <a href="#contact" class="cyber-btn secondary"><span>ESTABLISH_UPLINK</span></a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section">
+                <h2 class="section-title" data-text="01_ABOUT_ME">01_ABOUT_ME</h2>
+                <div class="about-container">
+                    <div class="about-terminal-window">
+                        <div class="terminal-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="title">user_profile.exe</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p>> Loading user data...</p>
+                            <p>> Name: Mitul Aghara</p>
+                            <p>> Status: Online</p>
+                            <p>> Location: Gujarat, India</p>
+                            <p>> Mission: Building animated, responsive, and futuristic web experiences.</p>
+                            <p>> <span class="highlight">I turn coffee into code and ideas into digital reality.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="section">
+                <h2 class="section-title" data-text="02_SKILLS_STATS">02_SKILLS_STATS</h2>
+                <div class="skills-grid">
+                    <!-- Skills will be injected dynamically or listed here -->
+                    <div class="skill-card">
+                        <div class="icon">MERN Stack</div>
+                        <div class="progress-bar">
+                            <div class="fill" style="width: 90%"></div>
+                        </div>
+                        <div class="percentage">90%</div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="icon">HTML/CSS</div>
+                        <div class="progress-bar">
+                            <div class="fill" style="width: 95%"></div>
+                        </div>
+                        <div class="percentage">95%</div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="icon">JavaScript</div>
+                        <div class="progress-bar">
+                            <div class="fill" style="width: 90%"></div>
+                        </div>
+                        <div class="percentage">90%</div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="icon">React/Next</div>
+                        <div class="progress-bar">
+                            <div class="fill" style="width: 85%"></div>
+                        </div>
+                        <div class="percentage">85%</div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="icon">Python</div>
+                        <div class="progress-bar">
+                            <div class="fill" style="width: 80%"></div>
+                        </div>
+                        <div class="percentage">80%</div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="icon">Backend</div>
+                        <div class="progress-bar">
+                            <div class="fill" style="width: 75%"></div>
+                        </div>
+                        <div class="percentage">75%</div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="icon">UI/UX</div>
+                        <div class="progress-bar">
+                            <div class="fill" style="width: 85%"></div>
+                        </div>
+                        <div class="percentage">85%</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+                <h2 class="section-title" data-text="03_PROJECTS">03_PROJECTS</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="card-border"></div>
+                        <div class="content">
+                            <h3>VillageConnect</h3>
+                            <p>Web-based community platform connecting rural areas with digital services and
+                                marketplaces.</p>
+                            <div class="tech-stack">
+                                <span>HTML/CSS</span><span>JS</span><span>Firebase</span>
+                            </div>
+                            <a href="https://villageconnect.vercel.app/" class="project-link">View Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-border"></div>
+                        <div class="content">
+                            <h3>SayriHub</h3>
+                            <p>Social platform for sharing poetry and quotes with real-time interactions.</p>
+                            <div class="tech-stack">
+                                <span>React</span><span>Firebase</span><span>Tailwind</span>
+                            </div>
+                            <a href="https://sayrihub.netlify.app/" class="project-link">View Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-border"></div>
+                        <div class="content">
+                            <h3>Ai Mailer</h3>
+                            <p>Automated email marketing tool powered by AI for personalized content generation.</p>
+                            <div class="tech-stack">
+                                <span>Python</span><span>Flask</span><span>OpenAI</span>
+                            </div>
+                            <a href="https://ai-agent-for-mail-automation.onrender.com/" class="project-link">View
+                                Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-border"></div>
+                        <div class="content">
+                            <h3>VillageConnect App</h3>
+                            <p>Mobile application connecting rural communities with essential digital services.</p>
+                            <div class="tech-stack">
+                                <span>Android</span><span>Java</span><span>Firebase</span>
+                            </div>
+                            <a href="https://villageconnect.vercel.app/download.html" class="project-link">View Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-border"></div>
+                        <div class="content">
+                            <h3>Portfolio</h3>
+                            <p>Futuristic, animated personal portfolio website featuring matrix effects and glitch UI.
+                            </p>
+                            <div class="tech-stack">
+                                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                            </div>
+                            <a href="https://mitulaghara-portfolio.netlify.app/" class="project-link">View Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-border"></div>
+                        <div class="content">
+                            <h3>My Cara</h3>
+                            <p>E-commerce platform for fashion and accessories with a modern shopping interface.</p>
+                            <div class="tech-stack">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
+                            <a href="https://mitulaghara.github.io/My-Cara---Aghara-Shop/" class="project-link">View
+                                Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <h2 class="section-title" data-text="04_UPLINK">04_UPLINK</h2>
+                <div class="contact-wrapper">
+                    <form class="cyber-form">
+                        <div class="input-group">
+                            <label>USER_ID (Name)</label>
+                            <input type="text" required placeholder="Enter Name">
+                        </div>
+                        <div class="input-group">
+                            <label>COMM_CHANNEL (Email)</label>
+                            <input type="email" required placeholder="Enter Email">
+                        </div>
+                        <div class="input-group">
+                            <label>TRANSMISSION (Message)</label>
+                            <textarea required placeholder="Enter Message"></textarea>
+                        </div>
+                        <button type="submit" class="cyber-btn"><span>SEND_DATA</span></button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="footer-text">© 2026 MITUL AGHARA | SYSTEM ONLINE | END OF LINE_</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
