@@ -33,9 +33,6 @@
 
 > **Access the System here:** [**Click to Enter / Live Link**](https://mitulaghara.github.io/Animated-Portfolio---Hacker-Theme/)
 
-![Screenshot Placeholder](https://via.placeholder.com/800x400.png?text=Add+Your+Website+Screenshot+Here)
-*(Note: Replace the image link above with a screenshot of your actual portfolio for better engagement)*
-
 <br>
 
 ## 📟 About The Project
